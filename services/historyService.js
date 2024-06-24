@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const historyFile = path.join(__dirname, '../../history.json');
+const historyFile = path.join(__dirname, '../log-history/history.json');
 
 const logCepQuery = (cep) => {
   const timestamp = new Date().toISOString();
